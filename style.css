@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+nav {
+    height: 90px;
+    background-color: rgb(1, 1, 52);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-graduation-cap {
+    color: rgb(229, 172, 13);
+    font-size: 30px;
+}
+
+.ism {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
+
+.icon {
+    font: 15px;
+    color: rgb(239, 178, 8);
+}
+
+.link:hover {
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.salom {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 51);
+}
+
+.birinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    gap: 25px;
+}
+
+.uzun {
+    background-color: darkblue;
+    height: 5px;
+    border: none;
+
+}
+
+.ikkinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 20px;
+    background-color: #f8f7fd;
+    scroll-margin-top: 90px;
+}
+
+.haqida {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.haqida {
+    font-size: 35px;
+
+}
+
+.haqimda {
+    color: cadetblue;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(183, 255, 67);
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+    padding: 20px 30px;
+}
+
+.tavsif {
+    color: rgb(3, 3, 88);
+}
+
+.ikkinchi ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+}
+.ikkinchi ol li{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+.fa-user-graduate{
+    font-size: 75px;
+    background-color: rgb(1, 1, 67);
+    padding: 35px;
+    color: rgb(252, 252, 252);
+    border-radius: 50%;
+}
+.uchinchi{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    background-color: #f8f7fd;
+    gap: 10px;
+    scroll-margin-top: 90px;
+}
+.uchinchi div{
+display: flex;
+gap: 25px;
+align-items: baseline;
+}
+.uchinchi div h3{
+    color: rgb(18, 2, 76);
+    font-size: 25px;
+    font-weight: 900;
+}
+.uchinchi ol{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+
+
+}
+.uchinchi ol li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-left: 5px solid #2a9f8d;
+    width: 300px;
+} 
+.uchinchi div i{
+    font-size: 50px;
+    color: #2a9f8d;
+}
+.uchinchi ol li i{
+    font-size: 25px;
+}
+.tortinchi{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    background-color: #f8f7fd;
+    gap: 10px;
+    scroll-margin-top: 90px;
+}
+.tortinchi div{
+display: flex;
+gap: 25px;
+align-items: baseline;
+}
+.tortinchi div h3{
+    color: rgb(18, 2, 76);
+    font-size: 25px;
+    font-weight: 900;
+}
+.tortinchi ol{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+
+
+}
+.tortinchi ol li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-left: 5px solid #2a9f8d;
+    width: 300px;
+} 
+.tortinchi div i{
+    font-size: 50px;
+    color: #2a9f8d;
+}
+.tortinchi ol li i{
+    font-size: 25px;
+}
+.beshinchi{
+    background-color: #f8f7fd;
+}
+.aloqa-section{
+display: flex;
+flex-direction: column;
+gap: 20px;
+background-color: #f8f7fd;
+padding: 50px 90px;
+list-style-type: none;
+}
+.aloqa-section div{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.aloqa-section div i{
+    color: #2a9f8d;
+    font-size: 25px;
+
+}
+.aloqa-section div h3{
+    color: #14213d;
+}
+.aloqa-section ol li {
+    list-style-type: none;
+    
+}
+.aloqa-section ol li a{
+    text-decoration: none;
+}
+.aloqa-section p {
+    color: #14213d;
+}
+.aloqa-section ol{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #14213d;
+    height: 90px;
+}
+footer p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+}
